@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    color: #3569a5;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#div-form {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(#e5e5e5 , #c6c6c6);
+    border: 3px solid #647c91;
+}
+
+#div-form input {
+    margin-top: 3px;
+    text-align: center;
+    padding: 2px 0px 2px 5px;
+    width: 100px;
+}
+
+#btn-calcular {
+    padding: 5px 10px;
+    color: #ffffff;
+    background: #1e5095;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#div-calcular {
+    margin: 30px 0px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+    color: #ffffff;
+    background: #2a6b88;
+}
+
+tr:nth-child(odd) {
+    background: #d4d4d4;
+}
+
+th, td {
+    padding: 5px 8px;
+}
